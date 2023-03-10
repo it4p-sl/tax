@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<main
+  class="container mx-auto flex flex-col flex-wrap items-left border rounded-md p-5"
+>
+  <header
+    class="flex w-full flex-col justify-center overflow-y-hidden lg:items-start"
+  >
+    <h1
+      class="my-4 text-center text-3xl font-bold leading-tight text-blue-500 md:text-left md:text-5xl"
+    >
+      {{ metadata.title }}
+    </h1>
+  </header>
+
+  <div
+    class="flex w-full flex-col justify-center overflow-y-hidden lg:items-start"
+  >
+    <p class="font-mono text-2xl">
+      From 01 Apr 2022 to 08 March 2023, the IRD has collected
+    </p>
+    <table class="mt-10 w-4/5 table-fixed text-lg">
+      <tbody>
+        <tr class="">
+          <td class="font-semibold pl-10 py-2">Rs. 1,000,000,000</td>
+          <td class="">Personal income tax from 832,150 accounts</td>
+        </tr>
+        <tr>
+          <td class="font-semibold pl-10 py-2">Rs. 2,000,000,000</td>
+          <td class="">Corporate tax from 51,331 accounts</td>
+        </tr>
+        <tr>
+          <td class="font-semibold pl-10 py-2">Rs. 3,000,000,000</td>
+          <td class="">Value Added Tax (VAT) from 832,150 accounts</td>
+        </tr>
+        <tr>
+          <td class="font-semibold pl-10 py-2">
+            &lt;Requested from IRD on 12th Feb 2023&gt;
+          </td>
+          <td class="">Withholding tax from &lt;Pending IRD&gt; accounts</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
