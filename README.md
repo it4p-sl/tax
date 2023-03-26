@@ -17,3 +17,7 @@ repository for tax transparency and visibility
 ## Generated from
 
 https://github.com/distantcam/windty
+
+## Data source
+
+https://docs.google.com/spreadsheets/d/1LJssFD9iRCmoiAVfo-L_Y3szBW1H3fJmWGLLjS98AkU/edit#gid=0
